@@ -30,7 +30,7 @@ class Square:
         Sets the private instance attribute __size
         (The Setter)
         '''
-        if not isinstance(size, int):
+        if not isinstance(self, int):
             raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
